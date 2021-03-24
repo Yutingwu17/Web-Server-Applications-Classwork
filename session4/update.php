@@ -16,7 +16,7 @@
             }
             else{
 
-                $sql="SELECT * FROM user WHERE ID =" .$_GET['ID'];
+                $sql="SELECT * FROM user WHERE ID =" .$_GET['ID'];//查询固定ID//
    
 		        $result = mysqli_query($connection, $sql);
 
